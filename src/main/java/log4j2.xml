@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="MyHandler">
+    <Appenders>
+        <Console name="sysout">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss} %-5p- %m%n</Pattern>
+            </PatternLayout>
+        </Console>
+        <RollingFile name="file" fileName="logs/CSDSLab1.log" filePattern="logs/CSDSLab1-%i.log">
+            <PatternLayout>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="sysout"/>
+        </Root>
+    </Loggers>
+</Configuration>

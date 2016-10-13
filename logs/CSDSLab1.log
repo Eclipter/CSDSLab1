@@ -1,0 +1,36 @@
+2016-10-11 23:07:18 INFO  ServerAction:53 - Waiting for connection
+2016-10-11 23:07:46 INFO  ServerAction:55 - New client connected: 127.0.0.1
+2016-10-11 23:07:46 INFO  ServerAction:53 - Waiting for connection
+2016-10-11 23:07:46 INFO  ServerThread:45 - Waiting for a new file request from 127.0.0.1
+2016-10-11 23:07:52 INFO  ServerThread:57 - Waiting for public key
+2016-10-11 23:08:00 INFO  ServerThread:63 - Public key accepted
+2016-10-11 23:08:00 INFO  ServerThread:64 - Waiting for filename
+2016-10-11 23:08:00 INFO  ServerThread:79 - Reading file...
+2016-10-11 23:08:00 INFO  ClientAction:99 - File exists.
+2016-10-11 23:08:00 INFO  ServerThread:85 - Generating IDEA key
+2016-10-11 23:08:01 INFO  ServerThread:88 - IDEA key generated
+2016-10-11 23:08:01 INFO  ServerThread:99 - Sent encrypted key
+2016-10-11 23:08:01 INFO  ClientAction:103 - Received encrypted IDEA key
+2016-10-11 23:08:01 INFO  ServerThread:103 - Sent encrypted text
+2016-10-11 23:08:01 INFO  ServerThread:45 - Waiting for a new file request from 127.0.0.1
+2016-10-11 23:08:01 INFO  ClientAction:107 - Decrypted IDEA key
+2016-10-11 23:08:01 INFO  ClientAction:112 - Received encrypted text
+2016-10-11 23:08:15 INFO  ServerThread:52 - Exit request
+2016-10-12 15:56:09 INFO  ServerAction:53 - Waiting for connection
+2016-10-12 15:56:14 INFO  ServerAction:55 - New client connected: 127.0.0.1
+2016-10-12 15:56:14 INFO  ServerAction:53 - Waiting for connection
+2016-10-12 15:56:14 INFO  ServerThread:45 - Waiting for a new file request from 127.0.0.1
+2016-10-12 15:57:20 INFO  ServerThread:57 - Waiting for public key
+2016-10-12 15:57:27 INFO  ServerThread:63 - Public key accepted
+2016-10-12 15:57:27 INFO  ServerThread:64 - Waiting for filename
+2016-10-12 15:57:27 INFO  ServerThread:79 - Reading file...
+2016-10-12 15:57:27 INFO  ClientAction:99 - File exists.
+2016-10-12 15:57:27 INFO  ServerThread:85 - Generating IDEA key
+2016-10-12 15:57:28 INFO  ServerThread:88 - IDEA key generated
+2016-10-12 15:57:28 INFO  ClientAction:103 - Received encrypted IDEA key
+2016-10-12 15:57:28 INFO  ServerThread:99 - Sent encrypted key
+2016-10-12 15:57:28 INFO  ServerThread:103 - Sent encrypted text
+2016-10-12 15:57:28 INFO  ServerThread:45 - Waiting for a new file request from 127.0.0.1
+2016-10-12 15:57:28 INFO  ClientAction:107 - Decrypted IDEA key
+2016-10-12 15:57:28 INFO  ClientAction:112 - Received encrypted text
+2016-10-12 16:23:47 ERROR ServerThread:114 - java.net.SocketException: Connection reset
